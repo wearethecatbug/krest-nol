@@ -391,7 +391,10 @@ function gameOver(gameOverType) {
 			startNewGame
 		);
 	} else {
-		(0,_popup__WEBPACK_IMPORTED_MODULE_1__.showPopup)(`Ничия!<img src='fgfgfg.gif' width='16' height='16'>`, startNewGame);
+		(0,_popup__WEBPACK_IMPORTED_MODULE_1__.showPopup)(
+			`Ничия!<img src='fgfgfg.gif' width='16' height='16'>`,
+			startNewGame
+		);
 	}
 }
 

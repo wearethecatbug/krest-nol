@@ -1,9 +1,12 @@
 {
+  "homepage": "https://wearethecatbug.github.io/krest-nol/",
   "name": "krest-nol-game",
   "version": "1.0.0",
   "private": true,
   "main": "dist/index.html",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack serve --open",
@@ -18,6 +21,7 @@
   "dependencies": {},
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "copy-webpack-plugin": "^9.0.1",
     "eslint": "^7.31.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.3.0",
@@ -30,6 +34,7 @@
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-sonarjs": "^0.9.1",
     "eslint-plugin-unicorn": "^34.0.1",
+    "gh-pages": "3.2.3",
     "prettier": "^2.3.2",
     "serve": "^12.0.0",
     "source-map-loader": "^3.0.0",

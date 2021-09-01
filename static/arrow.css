@@ -7,8 +7,8 @@
 
 #arrow::before {
     position: absolute;
-    height: 0px;
-    width: 0px;
+    height: 0;
+    width: 0;
     border: 6px solid transparent;
     content: "";
     bottom: 100%;
