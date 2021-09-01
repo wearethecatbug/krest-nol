@@ -1,0 +1,40 @@
+{
+  "name": "krest-nol-game",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open",
+    "start:dev": "webpack serve --config webpack.config.js --progress --open ",
+    "lint": "eslint",
+    "watch": "webpack --watch",
+    "prettier": "prettier"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.31.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-class-property": "^1.1.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-sonarjs": "^0.9.1",
+    "eslint-plugin-unicorn": "^34.0.1",
+    "prettier": "^2.3.2",
+    "serve": "^12.0.0",
+    "source-map-loader": "^3.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
